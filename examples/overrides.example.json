@@ -1,0 +1,5 @@
+{
+  "_comment": "Human corrections. 'reject' removes promo IDs from selection; 'pin' forces IDs in (IDs come from ranked_promos.json or raw_candidates.json).",
+  "reject": ["E001_00m13.50-00m39.50"],
+  "pin": []
+}

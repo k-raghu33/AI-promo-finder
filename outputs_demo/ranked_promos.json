@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "tool": "Kuku AI Promo Finder",
+    "input_dir": "examples",
+    "episodes": 2,
+    "llm_provider": "none",
+    "script_cues": true,
+    "max_per_episode": 2,
+    "weights": {
+      "hook": 0.27,
+      "cliffhanger": 0.27,
+      "emotion": 0.16,
+      "standalone": 0.15,
+      "clarity": 0.15
+    },
+    "fingerprint": "4ee6e6373cbf2a3d",
+    "runtime_sec": 0.06
+  },
+  "promos": [
+    {
+      "rank": 1,
+      "promo_id": "E001_00m13.50-00m39.50",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:39.50",
+          "start_sec": 13.5,
+          "end_sec": 39.5,
+          "duration_sec": 26.0
+        }
+      ],
+      "total_duration_sec": 26.0,
+      "score": 0.8734,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.6,
+        "emotion": 0.931,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.8734
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on MIRA (Screaming): \"No! Let me go!\" | Visual: The doors slam against the stone walls with a thunderous boom. | Left open: tension held at the cut, new arrival",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, someone walks in at the cut and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "new arrival"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (burst, slam, thunderous)",
+          "+0.15 someone arrives/interrupts at the cut"
+        ],
+        "emotion": [
+          "mean delivery 2.58/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 49% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      },
+      "rank_reason": "#1: score 0.873; strongest hook 1.00 & clarity 1.00; weakest cliffhanger 0.60"
+    },
+    {
+      "rank": 2,
+      "promo_id": "E002_00m00.00-00m33.50",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:00.00",
+          "end": "00:33.50",
+          "start_sec": 0.0,
+          "end_sec": 33.5,
+          "duration_sec": 33.5
+        }
+      ],
+      "total_duration_sec": 33.5,
+      "score": 0.7279,
+      "scores": {
+        "hook": 0.63,
+        "cliffhanger": 0.58,
+        "emotion": 0.679,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7279
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Trembling): \"Who are you?\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Footsteps on gravel; an ominous string drone holds. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a shocking line, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (who are you)",
+          "+0.08 confrontational question",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (drone, footsteps, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 1.88/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 47% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      },
+      "rank_reason": "#2: score 0.728; strongest clarity 1.00 & standalone 0.95; weakest cliffhanger 0.58"
+    }
+  ]
+}

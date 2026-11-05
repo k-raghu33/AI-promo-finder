@@ -1,0 +1,3 @@
+# The promo finder itself needs only the Python 3.9+ standard library.
+# Optional: rebuild docs/solution.pdf with docs/build_solution_pdf.py
+reportlab>=4.0

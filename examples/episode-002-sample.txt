@@ -1,0 +1,98 @@
+EPISODE NUMBER: Episode 2
+EPISODE LOGLINE: Mira takes the stranger's hand and leaves her family behind, only to learn on the carriage ride that he knows exactly who planted the necklace.
+CONTINUITY NOTES: Fictional sample written for the Promo Finder demo (The Baker's Daughter). Not Kuku content.
+
+--- SCRIPT START ---
+
+SCENE 01
+Scene heading: INT. CARRIAGE - NIGHT
+Scene start: 00:00.00
+Scene end: 00:35.00
+
+Actions and dialogue:
+
+**CAMERA:**
+Start: (00:00.00) | End: (00:04.00)
+Interior of a dark carriage rocking along a forest road.
+
+**MIRA (Trembling):**
+Start: (00:00.20) | End: (00:01.20)
+"Who are you?"
+
+**CAMERA:**
+Start: (00:04.00) | End: (00:07.50)
+Close-up of the stranger removing his gloves.
+
+**STRANGER (Soft):**
+Start: (00:04.20) | End: (00:06.72)
+"Someone who owed your mother a debt."
+
+**CAMERA:**
+Start: (00:07.50) | End: (00:10.50)
+Close-up of Mira.
+
+**MIRA (Bitter):**
+Start: (00:07.70) | End: (00:09.73)
+"My family just threw me away."
+
+**CAMERA:**
+Start: (00:10.50) | End: (00:14.00)
+Two-shot of them sitting opposite each other.
+
+**STRANGER (Gentle):**
+Start: (00:10.70) | End: (00:13.50)
+"Your family did not plant that necklace."
+
+**CAMERA:**
+Start: (00:14.00) | End: (00:17.00)
+Close-up of Mira, shocked.
+
+**MIRA (Shocked):**
+Start: (00:14.20) | End: (00:15.20)
+"Then who did?"
+
+**CAMERA:**
+Start: (00:17.00) | End: (00:20.50)
+Close-up of the stranger.
+
+**STRANGER (Grim):**
+Start: (00:17.20) | End: (00:20.07)
+"The same person who poisoned your mother."
+
+**CAMERA:**
+Start: (00:20.50) | End: (00:23.50)
+Extreme close-up of Mira's eyes filling with tears.
+
+**MIRA (Desperate):**
+Start: (00:20.70) | End: (00:22.03)
+"Tell me their name."
+
+**CAMERA:**
+Start: (00:23.50) | End: (00:27.00)
+Medium shot as the carriage jolts to a stop.
+
+**SOUND FX:**
+Start: (00:23.70) | End: (00:26.90)
+Horses scream; the carriage crashes to a halt.
+
+**CAMERA:**
+Start: (00:27.00) | End: (00:30.00)
+Close-up of the stranger drawing a short blade.
+
+**STRANGER (Urgent):**
+Start: (00:27.20) | End: (00:29.30)
+"Stay down. They have found us."
+
+**CAMERA:**
+Start: (00:30.00) | End: (00:33.50)
+Close-up of the carriage door handle slowly turning from outside.
+
+**SOUND FX:**
+Start: (00:30.20) | End: (00:33.40)
+Footsteps on gravel; an ominous string drone holds.
+
+**CAMERA:**
+Start: (00:33.50) | End: (00:35.00)
+Cut to black.
+
+--- SCRIPT END ---

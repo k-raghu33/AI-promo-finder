@@ -1,0 +1,20 @@
+# Kuku's screenplays are confidential: never commit them
+input/
+*.zip
+
+# Real outputs quote short lines of the confidential scripts.
+# Share them only via the private submission link; outputs_demo/ (fictional sample) is committed.
+outputs/
+outputs_*/
+!outputs_demo/
+.llm_cache.json
+
+__pycache__/
+*.pyc
+.env
+.venv/
+.DS_Store
+
+# Personal preparation notes (not part of the repo)
+docs/interview_prep.md
+docs/walkthrough_script.md

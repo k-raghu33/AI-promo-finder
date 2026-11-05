@@ -1,0 +1,2881 @@
+{
+  "meta": {
+    "tool": "Kuku AI Promo Finder",
+    "input_dir": "examples",
+    "episodes": 2,
+    "llm_provider": "none",
+    "script_cues": true,
+    "max_per_episode": 2,
+    "weights": {
+      "hook": 0.27,
+      "cliffhanger": 0.27,
+      "emotion": 0.16,
+      "standalone": 0.15,
+      "clarity": 0.15
+    },
+    "fingerprint": "4ee6e6373cbf2a3d",
+    "runtime_sec": 0.06,
+    "note": "top 20 scored candidates per episode (eligible or not), unedited"
+  },
+  "stats": {
+    "episodes": 2,
+    "single_candidates": 95,
+    "stitched_candidates": 12,
+    "eligible": 47,
+    "per_episode": {
+      "1": {
+        "candidates": 84,
+        "eligible": 36
+      },
+      "2": {
+        "candidates": 23,
+        "eligible": 11
+      }
+    },
+    "selected": 2,
+    "rejected_by_override": 0,
+    "pinned": [],
+    "missing_pins": [],
+    "llm": {
+      "provider": "none",
+      "enabled": false,
+      "calls": 0,
+      "cache_hits": 0,
+      "failures": 0
+    }
+  },
+  "candidates": [
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m39.50",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:39.50",
+          "start_sec": 13.5,
+          "end_sec": 39.5,
+          "duration_sec": 26.0
+        }
+      ],
+      "total_duration_sec": 26.0,
+      "score": 0.8734,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.6,
+        "emotion": 0.931,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.8734
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on MIRA (Screaming): \"No! Let me go!\" | Visual: The doors slam against the stone walls with a thunderous boom. | Left open: tension held at the cut, new arrival",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, someone walks in at the cut and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "new arrival"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (burst, slam, thunderous)",
+          "+0.15 someone arrives/interrupts at the cut"
+        ],
+        "emotion": [
+          "mean delivery 2.58/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 49% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m55.50",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:55.50",
+          "start_sec": 13.5,
+          "end_sec": 55.5,
+          "duration_sec": 42.0
+        }
+      ],
+      "total_duration_sec": 42.0,
+      "score": 0.8722,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.65,
+        "emotion": 0.902,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.8722
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: An ominous low drone swells as the frame holds on Mira's trembling hand. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (drone, ominous, swells)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.41/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 58% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m57.00",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:57.00",
+          "start_sec": 13.5,
+          "end_sec": 57.0,
+          "duration_sec": 43.5
+        }
+      ],
+      "total_duration_sec": 43.5,
+      "score": 0.8722,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.65,
+        "emotion": 0.902,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.8722
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (cut to black, drone, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.41/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 56% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m42.50",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:42.50",
+          "start_sec": 13.5,
+          "end_sec": 42.5,
+          "duration_sec": 29.0
+        }
+      ],
+      "total_duration_sec": 29.0,
+      "score": 0.8423,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.53,
+        "emotion": 0.917,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.8423
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Calm, Commanding): \"Release her.\" | Visual: The doors slam against the stone walls with a thunderous boom. | Left open: tension held at the cut, new arrival",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, someone walks in at the cut and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "new arrival"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (burst, slam, thunderous)",
+          "+0.15 someone arrives/interrupts at the cut"
+        ],
+        "emotion": [
+          "mean delivery 2.50/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 47% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m16.50+E001_00m23.00-00m55.50",
+      "tier": "post-first",
+      "type": "stitched",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:16.50",
+          "start_sec": 13.5,
+          "end_sec": 16.5,
+          "duration_sec": 3.0
+        },
+        {
+          "episode": 1,
+          "start": "00:23.00",
+          "end": "00:55.50",
+          "start_sec": 23.0,
+          "end_sec": 55.5,
+          "duration_sec": 32.5
+        }
+      ],
+      "total_duration_sec": 35.5,
+      "score": 0.8417,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.65,
+        "emotion": 0.898,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.03,
+        "rule_total": 0.8417
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: An ominous low drone swells as the frame holds on Mira's trembling hand. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (drone, ominous, swells)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.39/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 60% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m16.50+E001_00m23.00-00m57.00",
+      "tier": "post-first",
+      "type": "stitched",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:16.50",
+          "start_sec": 13.5,
+          "end_sec": 16.5,
+          "duration_sec": 3.0
+        },
+        {
+          "episode": 1,
+          "start": "00:23.00",
+          "end": "00:57.00",
+          "start_sec": 23.0,
+          "end_sec": 57.0,
+          "duration_sec": 34.0
+        }
+      ],
+      "total_duration_sec": 37.0,
+      "score": 0.8417,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.65,
+        "emotion": 0.898,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.03,
+        "rule_total": 0.8417
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (cut to black, drone, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.39/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 58% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m45.50",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:45.50",
+          "start_sec": 13.5,
+          "end_sec": 45.5,
+          "duration_sec": 32.0
+        }
+      ],
+      "total_duration_sec": 32.0,
+      "score": 0.8271,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.48,
+        "emotion": 0.906,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.8271
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on SELENE (Mocking): \"And who are you to give orders in my father's house?\" | Left open: answer withheld",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it cuts before the question is answered and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "answer withheld"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.20 ends on a question",
+          "+0.10 the answer exists but is cut off",
+          "+0.08 final line charged"
+        ],
+        "emotion": [
+          "mean delivery 2.44/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 51% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m52.00",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:52.00",
+          "start_sec": 13.5,
+          "end_sec": 52.0,
+          "duration_sec": 38.5
+        }
+      ],
+      "total_duration_sec": 38.5,
+      "score": 0.8113,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.43,
+        "emotion": 0.892,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.8113
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on MIRA (Breathless): \"Marry? I have never seen you before in my life.\" | Left open: threat left hanging (never)",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, the threat is spoken out loud and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "threat left hanging (never)"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.25 stakes/threat in final line (never)",
+          "+0.08 final line charged"
+        ],
+        "emotion": [
+          "mean delivery 2.35/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 55% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m16.50-00m55.50",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:16.50",
+          "end": "00:55.50",
+          "start_sec": 16.5,
+          "end_sec": 55.5,
+          "duration_sec": 39.0
+        }
+      ],
+      "total_duration_sec": 39.0,
+      "score": 0.7925,
+      "scores": {
+        "hook": 0.75,
+        "cliffhanger": 0.65,
+        "emotion": 0.825,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7925
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Desperate): \"I never touched it, I swear!\"",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: An ominous low drone swells as the frame holds on Mira's trembling hand. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a shocking line, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (never)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Desperate)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (drone, ominous, swells)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.35/3, peak 3/3, 2 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 56% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m16.50-00m57.00",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:16.50",
+          "end": "00:57.00",
+          "start_sec": 16.5,
+          "end_sec": 57.0,
+          "duration_sec": 40.5
+        }
+      ],
+      "total_duration_sec": 40.5,
+      "score": 0.7925,
+      "scores": {
+        "hook": 0.75,
+        "cliffhanger": 0.65,
+        "emotion": 0.825,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7925
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Desperate): \"I never touched it, I swear!\"",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a shocking line, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (never)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Desperate)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (cut to black, drone, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.35/3, peak 3/3, 2 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 54% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m26.50-00m55.50",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:26.50",
+          "end": "00:55.50",
+          "start_sec": 26.5,
+          "end_sec": 55.5,
+          "duration_sec": 29.0
+        }
+      ],
+      "total_duration_sec": 29.0,
+      "score": 0.7915,
+      "scores": {
+        "hook": 0.75,
+        "cliffhanger": 0.65,
+        "emotion": 0.819,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7915
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Horrified): \"Someone planted it! Father, you know me!\"",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: An ominous low drone swells as the frame holds on Mira's trembling hand. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a shocking line, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (planted)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Horrified)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (drone, ominous, swells)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.31/3, peak 3/3, 2 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 64% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m26.50-00m57.00",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:26.50",
+          "end": "00:57.00",
+          "start_sec": 26.5,
+          "end_sec": 57.0,
+          "duration_sec": 30.5
+        }
+      ],
+      "total_duration_sec": 30.5,
+      "score": 0.7915,
+      "scores": {
+        "hook": 0.75,
+        "cliffhanger": 0.65,
+        "emotion": 0.819,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7915
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Horrified): \"Someone planted it! Father, you know me!\"",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a shocking line, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (planted)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Horrified)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (cut to black, drone, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.31/3, peak 3/3, 2 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 61% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m16.50-00m42.50",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:16.50",
+          "end": "00:42.50",
+          "start_sec": 16.5,
+          "end_sec": 42.5,
+          "duration_sec": 26.0
+        }
+      ],
+      "total_duration_sec": 26.0,
+      "score": 0.7719,
+      "scores": {
+        "hook": 0.75,
+        "cliffhanger": 0.53,
+        "emotion": 0.836,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7719
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Desperate): \"I never touched it, I swear!\"",
+      "cliffhanger": "Cuts on STRANGER (Calm, Commanding): \"Release her.\" | Visual: The doors slam against the stone walls with a thunderous boom. | Left open: tension held at the cut, new arrival",
+      "why_it_works": "Works because it opens on a shocking line, someone walks in at the cut and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "new arrival"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (never)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Desperate)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (burst, slam, thunderous)",
+          "+0.15 someone arrives/interrupts at the cut"
+        ],
+        "emotion": [
+          "mean delivery 2.42/3, peak 3/3, 2 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 43% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m16.50-00m39.50",
+      "tier": "post-first",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:16.50",
+          "end": "00:39.50",
+          "start_sec": 16.5,
+          "end_sec": 39.5,
+          "duration_sec": 23.0
+        }
+      ],
+      "total_duration_sec": 23.0,
+      "score": 0.7613,
+      "scores": {
+        "hook": 0.75,
+        "cliffhanger": 0.6,
+        "emotion": 0.85,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 0.96,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7613
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Desperate): \"I never touched it, I swear!\"",
+      "cliffhanger": "Cuts on MIRA (Screaming): \"No! Let me go!\" | Visual: The doors slam against the stone walls with a thunderous boom. | Left open: tension held at the cut, new arrival",
+      "why_it_works": "Works because it opens on a shocking line, someone walks in at the cut and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "new arrival"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (never)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Desperate)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (burst, slam, thunderous)",
+          "+0.15 someone arrives/interrupts at the cut"
+        ],
+        "emotion": [
+          "mean delivery 2.50/3, peak 3/3, 2 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 44% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m16.50-00m45.50",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:16.50",
+          "end": "00:45.50",
+          "start_sec": 16.5,
+          "end_sec": 45.5,
+          "duration_sec": 29.0
+        }
+      ],
+      "total_duration_sec": 29.0,
+      "score": 0.7468,
+      "scores": {
+        "hook": 0.75,
+        "cliffhanger": 0.48,
+        "emotion": 0.826,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7468
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Desperate): \"I never touched it, I swear!\"",
+      "cliffhanger": "Cuts on SELENE (Mocking): \"And who are you to give orders in my father's house?\" | Left open: answer withheld",
+      "why_it_works": "Works because it opens on a shocking line, it cuts before the question is answered and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "answer withheld"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (never)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Desperate)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.20 ends on a question",
+          "+0.10 the answer exists but is cut off",
+          "+0.08 final line charged"
+        ],
+        "emotion": [
+          "mean delivery 2.36/3, peak 3/3, 2 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 47% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m49.00",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:49.00",
+          "start_sec": 13.5,
+          "end_sec": 49.0,
+          "duration_sec": 35.5
+        }
+      ],
+      "total_duration_sec": 35.5,
+      "score": 0.7448,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.18,
+        "emotion": 0.898,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7448
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "cliffhanger 0.18 < gate 0.3"
+      ],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Cold): \"The man she is going to marry.\"",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged"
+        ],
+        "emotion": [
+          "mean delivery 2.39/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 52% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m10.50-00m55.50",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:10.50",
+          "end": "00:55.50",
+          "start_sec": 10.5,
+          "end_sec": 55.5,
+          "duration_sec": 45.0
+        }
+      ],
+      "total_duration_sec": 45.0,
+      "score": 0.7363,
+      "scores": {
+        "hook": 0.5,
+        "cliffhanger": 0.65,
+        "emotion": 0.91,
+        "standalone": 0.95,
+        "clarity": 0.918,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7363
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Shrieking): \"My necklace! Someone has stolen my diamond necklace!\"",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: An ominous low drone swells as the frame holds on Mira's trembling hand. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens mid-confrontation, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Shrieking)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (drone, ominous, swells)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.46/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 60% of clip",
+          "4 speakers",
+          "91% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m10.50-00m57.00",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:10.50",
+          "end": "00:57.00",
+          "start_sec": 10.5,
+          "end_sec": 57.0,
+          "duration_sec": 46.5
+        }
+      ],
+      "total_duration_sec": 46.5,
+      "score": 0.7363,
+      "scores": {
+        "hook": 0.5,
+        "cliffhanger": 0.65,
+        "emotion": 0.91,
+        "standalone": 0.95,
+        "clarity": 0.918,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7363
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Shrieking): \"My necklace! Someone has stolen my diamond necklace!\"",
+      "cliffhanger": "Cuts on STRANGER (Low, Menacing): \"Then choose, Mira. My hand, or the magistrate's rope.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens mid-confrontation, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Shrieking)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (cut to black, drone, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.46/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 58% of clip",
+          "4 speakers",
+          "91% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m10.50-00m39.50",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:10.50",
+          "end": "00:39.50",
+          "start_sec": 10.5,
+          "end_sec": 39.5,
+          "duration_sec": 29.0
+        }
+      ],
+      "total_duration_sec": 29.0,
+      "score": 0.7358,
+      "scores": {
+        "hook": 0.5,
+        "cliffhanger": 0.6,
+        "emotion": 0.94,
+        "standalone": 0.95,
+        "clarity": 0.972,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7358
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Shrieking): \"My necklace! Someone has stolen my diamond necklace!\"",
+      "cliffhanger": "Cuts on MIRA (Screaming): \"No! Let me go!\" | Visual: The doors slam against the stone walls with a thunderous boom. | Left open: tension held at the cut, new arrival",
+      "why_it_works": "Works because it opens mid-confrontation, someone walks in at the cut and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "new arrival"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Shrieking)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity",
+          "+0.20 tension cue at the cut (burst, slam, thunderous)",
+          "+0.15 someone arrives/interrupts at the cut"
+        ],
+        "emotion": [
+          "mean delivery 2.64/3, peak 3/3, 4 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 53% of clip",
+          "3 speakers",
+          "83% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m16.50-00m52.00",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        1
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:16.50",
+          "end": "00:52.00",
+          "start_sec": 16.5,
+          "end_sec": 52.0,
+          "duration_sec": 35.5
+        }
+      ],
+      "total_duration_sec": 35.5,
+      "score": 0.7312,
+      "scores": {
+        "hook": 0.75,
+        "cliffhanger": 0.43,
+        "emotion": 0.813,
+        "standalone": 0.95,
+        "clarity": 0.933,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7312
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Desperate): \"I never touched it, I swear!\"",
+      "cliffhanger": "Cuts on MIRA (Breathless): \"Marry? I have never seen you before in my life.\" | Left open: threat left hanging (never)",
+      "why_it_works": "Works because it opens on a shocking line, the threat is spoken out loud and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "threat left hanging (never)"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (never)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Desperate)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.25 stakes/threat in final line (never)",
+          "+0.08 final line charged"
+        ],
+        "emotion": [
+          "mean delivery 2.28/3, peak 3/3, 2 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (daughter, father)"
+        ],
+        "clarity": [
+          "dialogue covers 52% of clip",
+          "4 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m16.50+E002_00m10.50-00m33.50",
+      "tier": "post-first",
+      "type": "stitched",
+      "episodes": [
+        1,
+        2
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:16.50",
+          "start_sec": 13.5,
+          "end_sec": 16.5,
+          "duration_sec": 3.0
+        },
+        {
+          "episode": 2,
+          "start": "00:10.50",
+          "end": "00:33.50",
+          "start_sec": 10.5,
+          "end_sec": 33.5,
+          "duration_sec": 23.0
+        }
+      ],
+      "total_duration_sec": 26.0,
+      "score": 0.7894,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.58,
+        "emotion": 0.861,
+        "standalone": 0.9,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.06,
+        "rule_total": 0.7894
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Footsteps on gravel; an ominous string drone holds. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (drone, footsteps, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.17/3, peak 3/3, 3 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)",
+          "-0.05 jumps between episodes"
+        ],
+        "clarity": [
+          "dialogue covers 49% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m16.50+E002_00m10.50-00m35.00",
+      "tier": "post-first",
+      "type": "stitched",
+      "episodes": [
+        1,
+        2
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:16.50",
+          "start_sec": 13.5,
+          "end_sec": 16.5,
+          "duration_sec": 3.0
+        },
+        {
+          "episode": 2,
+          "start": "00:10.50",
+          "end": "00:35.00",
+          "start_sec": 10.5,
+          "end_sec": 35.0,
+          "duration_sec": 24.5
+        }
+      ],
+      "total_duration_sec": 27.5,
+      "score": 0.7894,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.58,
+        "emotion": 0.861,
+        "standalone": 0.9,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.06,
+        "rule_total": 0.7894
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (cut to black, drone, footsteps)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.17/3, peak 3/3, 3 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)",
+          "-0.05 jumps between episodes"
+        ],
+        "clarity": [
+          "dialogue covers 47% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m16.50+E002_00m07.50-00m33.50",
+      "tier": "post-first",
+      "type": "stitched",
+      "episodes": [
+        1,
+        2
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:16.50",
+          "start_sec": 13.5,
+          "end_sec": 16.5,
+          "duration_sec": 3.0
+        },
+        {
+          "episode": 2,
+          "start": "00:07.50",
+          "end": "00:33.50",
+          "start_sec": 7.5,
+          "end_sec": 33.5,
+          "duration_sec": 26.0
+        }
+      ],
+      "total_duration_sec": 29.0,
+      "score": 0.7887,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.58,
+        "emotion": 0.857,
+        "standalone": 0.9,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.06,
+        "rule_total": 0.7887
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Footsteps on gravel; an ominous string drone holds. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (drone, footsteps, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.14/3, peak 3/3, 3 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)",
+          "-0.05 jumps between episodes"
+        ],
+        "clarity": [
+          "dialogue covers 51% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m16.50+E002_00m07.50-00m35.00",
+      "tier": "post-first",
+      "type": "stitched",
+      "episodes": [
+        1,
+        2
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:16.50",
+          "start_sec": 13.5,
+          "end_sec": 16.5,
+          "duration_sec": 3.0
+        },
+        {
+          "episode": 2,
+          "start": "00:07.50",
+          "end": "00:35.00",
+          "start_sec": 7.5,
+          "end_sec": 35.0,
+          "duration_sec": 27.5
+        }
+      ],
+      "total_duration_sec": 30.5,
+      "score": 0.7887,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.58,
+        "emotion": 0.857,
+        "standalone": 0.9,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.06,
+        "rule_total": 0.7887
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (cut to black, drone, footsteps)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.14/3, peak 3/3, 3 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)",
+          "-0.05 jumps between episodes"
+        ],
+        "clarity": [
+          "dialogue covers 49% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m16.50+E002_00m04.00-00m33.50",
+      "tier": "post-first",
+      "type": "stitched",
+      "episodes": [
+        1,
+        2
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:16.50",
+          "start_sec": 13.5,
+          "end_sec": 16.5,
+          "duration_sec": 3.0
+        },
+        {
+          "episode": 2,
+          "start": "00:04.00",
+          "end": "00:33.50",
+          "start_sec": 4.0,
+          "end_sec": 33.5,
+          "duration_sec": 29.5
+        }
+      ],
+      "total_duration_sec": 32.5,
+      "score": 0.7849,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.58,
+        "emotion": 0.833,
+        "standalone": 0.9,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.06,
+        "rule_total": 0.7849
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Footsteps on gravel; an ominous string drone holds. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (drone, footsteps, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.00/3, peak 3/3, 3 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)",
+          "-0.05 jumps between episodes"
+        ],
+        "clarity": [
+          "dialogue covers 53% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m16.50+E002_00m04.00-00m35.00",
+      "tier": "post-first",
+      "type": "stitched",
+      "episodes": [
+        1,
+        2
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:16.50",
+          "start_sec": 13.5,
+          "end_sec": 16.5,
+          "duration_sec": 3.0
+        },
+        {
+          "episode": 2,
+          "start": "00:04.00",
+          "end": "00:35.00",
+          "start_sec": 4.0,
+          "end_sec": 35.0,
+          "duration_sec": 31.0
+        }
+      ],
+      "total_duration_sec": 34.0,
+      "score": 0.7849,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.58,
+        "emotion": 0.833,
+        "standalone": 0.9,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.06,
+        "rule_total": 0.7849
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (cut to black, drone, footsteps)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.00/3, peak 3/3, 3 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)",
+          "-0.05 jumps between episodes"
+        ],
+        "clarity": [
+          "dialogue covers 51% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E001_00m13.50-00m16.50+E002_00m14.00-00m35.00",
+      "tier": "post-first",
+      "type": "stitched",
+      "episodes": [
+        1,
+        2
+      ],
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:13.50",
+          "end": "00:16.50",
+          "start_sec": 13.5,
+          "end_sec": 16.5,
+          "duration_sec": 3.0
+        },
+        {
+          "episode": 2,
+          "start": "00:14.00",
+          "end": "00:35.00",
+          "start_sec": 14.0,
+          "end_sec": 35.0,
+          "duration_sec": 21.0
+        }
+      ],
+      "total_duration_sec": 24.0,
+      "score": 0.7711,
+      "scores": {
+        "hook": 1.0,
+        "cliffhanger": 0.58,
+        "emotion": 0.9,
+        "standalone": 0.85,
+        "clarity": 1.0,
+        "duration_multiplier": 0.98,
+        "stitch_penalty": 0.06,
+        "rule_total": 0.7711
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on SELENE (Furious): \"You thief! You were the only one near me!\" | Visual: Medium shot as Selene spins and slaps Mira hard across the face.",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a physical action and a shocking line at once, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.35 physical event in first 3s (crashes, slaps)",
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (thief)",
+          "+0.10 exclamation",
+          "+0.20 explosive delivery (Furious)",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (cut to black, drone, footsteps)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.40/3, peak 3/3, 3 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.05 relationships stated on screen (mother)",
+          "-0.05 jumps between episodes"
+        ],
+        "clarity": [
+          "dialogue covers 42% of clip",
+          "3 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m00.00-00m33.50",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:00.00",
+          "end": "00:33.50",
+          "start_sec": 0.0,
+          "end_sec": 33.5,
+          "duration_sec": 33.5
+        }
+      ],
+      "total_duration_sec": 33.5,
+      "score": 0.7279,
+      "scores": {
+        "hook": 0.63,
+        "cliffhanger": 0.58,
+        "emotion": 0.679,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7279
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Trembling): \"Who are you?\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Footsteps on gravel; an ominous string drone holds. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a shocking line, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (who are you)",
+          "+0.08 confrontational question",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (drone, footsteps, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 1.88/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 47% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m00.00-00m35.00",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:00.00",
+          "end": "00:35.00",
+          "start_sec": 0.0,
+          "end_sec": 35.0,
+          "duration_sec": 35.0
+        }
+      ],
+      "total_duration_sec": 35.0,
+      "score": 0.7279,
+      "scores": {
+        "hook": 0.63,
+        "cliffhanger": 0.58,
+        "emotion": 0.679,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.7279
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Trembling): \"Who are you?\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it opens on a shocking line, it ends on the episode's own cliffhanger and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (who are you)",
+          "+0.08 confrontational question",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (cut to black, drone, footsteps)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 1.88/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 45% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m07.50-00m33.50",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:07.50",
+          "end": "00:33.50",
+          "start_sec": 7.5,
+          "end_sec": 33.5,
+          "duration_sec": 26.0
+        }
+      ],
+      "total_duration_sec": 26.0,
+      "score": 0.6421,
+      "scores": {
+        "hook": 0.3,
+        "cliffhanger": 0.58,
+        "emotion": 0.7,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.6421
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Bitter): \"My family just threw me away.\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Footsteps on gravel; an ominous string drone holds. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it ends on the episode's own cliffhanger, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (drone, footsteps, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.00/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 47% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m07.50-00m35.00",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:07.50",
+          "end": "00:35.00",
+          "start_sec": 7.5,
+          "end_sec": 35.0,
+          "duration_sec": 27.5
+        }
+      ],
+      "total_duration_sec": 27.5,
+      "score": 0.6421,
+      "scores": {
+        "hook": 0.3,
+        "cliffhanger": 0.58,
+        "emotion": 0.7,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.6421
+      },
+      "eligible": true,
+      "reject_reasons": [],
+      "hook": "Opens on MIRA (Bitter): \"My family just threw me away.\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it ends on the episode's own cliffhanger, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (cut to black, drone, footsteps)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.00/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 44% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m00.00-00m27.00",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:00.00",
+          "end": "00:27.00",
+          "start_sec": 0.0,
+          "end_sec": 27.0,
+          "duration_sec": 27.0
+        }
+      ],
+      "total_duration_sec": 27.0,
+      "score": 0.6383,
+      "scores": {
+        "hook": 0.63,
+        "cliffhanger": 0.25,
+        "emotion": 0.676,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.6383
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "cliffhanger 0.25 < gate 0.3"
+      ],
+      "hook": "Opens on MIRA (Trembling): \"Who are you?\"",
+      "cliffhanger": "Cuts on MIRA (Desperate): \"Tell me their name.\"",
+      "why_it_works": "Works because it opens on a shocking line, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (who are you)",
+          "+0.08 confrontational question",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity"
+        ],
+        "emotion": [
+          "mean delivery 1.86/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 50% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m00.00-00m30.00",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:00.00",
+          "end": "00:30.00",
+          "start_sec": 0.0,
+          "end_sec": 30.0,
+          "duration_sec": 30.0
+        }
+      ],
+      "total_duration_sec": 30.0,
+      "score": 0.6199,
+      "scores": {
+        "hook": 0.63,
+        "cliffhanger": 0.18,
+        "emotion": 0.679,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.6199
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "cliffhanger 0.18 < gate 0.3"
+      ],
+      "hook": "Opens on MIRA (Trembling): \"Who are you?\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\"",
+      "why_it_works": "Works because it opens on a shocking line, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (who are you)",
+          "+0.08 confrontational question",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged"
+        ],
+        "emotion": [
+          "mean delivery 1.88/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 52% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m04.00-00m33.50",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:04.00",
+          "end": "00:33.50",
+          "start_sec": 4.0,
+          "end_sec": 33.5,
+          "duration_sec": 29.5
+        }
+      ],
+      "total_duration_sec": 29.5,
+      "score": 0.6113,
+      "scores": {
+        "hook": 0.2,
+        "cliffhanger": 0.58,
+        "emotion": 0.676,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.6113
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "hook 0.20 < gate 0.3"
+      ],
+      "hook": "Opens on STRANGER (Soft): \"Someone who owed your mother a debt.\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Footsteps on gravel; an ominous string drone holds. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it ends on the episode's own cliffhanger, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (drone, footsteps, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 1.86/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 50% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m04.00-00m35.00",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:04.00",
+          "end": "00:35.00",
+          "start_sec": 4.0,
+          "end_sec": 35.0,
+          "duration_sec": 31.0
+        }
+      ],
+      "total_duration_sec": 31.0,
+      "score": 0.6113,
+      "scores": {
+        "hook": 0.2,
+        "cliffhanger": 0.58,
+        "emotion": 0.676,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 1.0,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.6113
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "hook 0.20 < gate 0.3"
+      ],
+      "hook": "Opens on STRANGER (Soft): \"Someone who owed your mother a debt.\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it ends on the episode's own cliffhanger, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (cut to black, drone, footsteps)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 1.86/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 47% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m10.50-00m35.00",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:10.50",
+          "end": "00:35.00",
+          "start_sec": 10.5,
+          "end_sec": 35.0,
+          "duration_sec": 24.5
+        }
+      ],
+      "total_duration_sec": 24.5,
+      "score": 0.6089,
+      "scores": {
+        "hook": 0.2,
+        "cliffhanger": 0.58,
+        "emotion": 0.7,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 0.99,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.6089
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "hook 0.20 < gate 0.3"
+      ],
+      "hook": "Opens on STRANGER (Gentle): \"Your family did not plant that necklace.\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it ends on the episode's own cliffhanger, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (cut to black, drone, footsteps)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.00/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 41% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m00.00-00m23.50",
+      "tier": "review",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:00.00",
+          "end": "00:23.50",
+          "start_sec": 0.0,
+          "end_sec": 23.5,
+          "duration_sec": 23.5
+        }
+      ],
+      "total_duration_sec": 23.5,
+      "score": 0.6088,
+      "scores": {
+        "hook": 0.63,
+        "cliffhanger": 0.25,
+        "emotion": 0.61,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 0.97,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.6088
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "cliffhanger 0.25 < gate 0.3"
+      ],
+      "hook": "Opens on MIRA (Trembling): \"Who are you?\"",
+      "cliffhanger": "Cuts on MIRA (Desperate): \"Tell me their name.\"",
+      "why_it_works": "Works because it opens on a shocking line, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (who are you)",
+          "+0.08 confrontational question",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.15 final line delivered at peak intensity"
+        ],
+        "emotion": [
+          "mean delivery 1.86/3, peak 3/3, 0 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 58% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m10.50-00m33.50",
+      "tier": "weak",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:10.50",
+          "end": "00:33.50",
+          "start_sec": 10.5,
+          "end_sec": 33.5,
+          "duration_sec": 23.0
+        }
+      ],
+      "total_duration_sec": 23.0,
+      "score": 0.5905,
+      "scores": {
+        "hook": 0.2,
+        "cliffhanger": 0.58,
+        "emotion": 0.7,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 0.96,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.5905
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "hook 0.20 < gate 0.3"
+      ],
+      "hook": "Opens on STRANGER (Gentle): \"Your family did not plant that necklace.\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Footsteps on gravel; an ominous string drone holds. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it ends on the episode's own cliffhanger, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (drone, footsteps, ominous)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.00/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 44% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m14.00-00m35.00",
+      "tier": "weak",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:14.00",
+          "end": "00:35.00",
+          "start_sec": 14.0,
+          "end_sec": 35.0,
+          "duration_sec": 21.0
+        }
+      ],
+      "total_duration_sec": 21.0,
+      "score": 0.5598,
+      "scores": {
+        "hook": 0.18,
+        "cliffhanger": 0.58,
+        "emotion": 0.742,
+        "standalone": 0.9,
+        "clarity": 0.998,
+        "duration_multiplier": 0.92,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.5598
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "hook 0.18 < gate 0.3"
+      ],
+      "hook": "Opens on MIRA (Shocked): \"Then who did?\"",
+      "cliffhanger": "Cuts on STRANGER (Urgent): \"Stay down. They have found us.\" | Visual: Cut to black. | Left open: tension held at the cut, episode-ending cut",
+      "why_it_works": "Works because it ends on the episode's own cliffhanger, who-is-who is clear without backstory and the performances stay at high intensity.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [
+        "tension held at the cut",
+        "episode-ending cut"
+      ],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.08 confrontational question",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s",
+          "-0.20 opens on a reply to something unseen"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged",
+          "+0.20 tension cue at the cut (cut to black, drone, footsteps)",
+          "+0.20 cut matches the episode's own ending"
+        ],
+        "emotion": [
+          "mean delivery 2.25/3, peak 3/3, 1 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.05 relationships stated on screen (mother)"
+        ],
+        "clarity": [
+          "dialogue covers 35% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    },
+    {
+      "rank": null,
+      "promo_id": "E002_00m00.00-00m20.50",
+      "tier": "weak",
+      "type": "single",
+      "episodes": [
+        2
+      ],
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:00.00",
+          "end": "00:20.50",
+          "start_sec": 0.0,
+          "end_sec": 20.5,
+          "duration_sec": 20.5
+        }
+      ],
+      "total_duration_sec": 20.5,
+      "score": 0.5348,
+      "scores": {
+        "hook": 0.63,
+        "cliffhanger": 0.18,
+        "emotion": 0.478,
+        "standalone": 0.95,
+        "clarity": 1.0,
+        "duration_multiplier": 0.91,
+        "stitch_penalty": 0.0,
+        "rule_total": 0.5348
+      },
+      "eligible": false,
+      "reject_reasons": [
+        "cliffhanger 0.18 < gate 0.3"
+      ],
+      "hook": "Opens on MIRA (Trembling): \"Who are you?\"",
+      "cliffhanger": "Cuts on STRANGER (Grim): \"The same person who poisoned your mother.\"",
+      "why_it_works": "Works because it opens on a shocking line and who-is-who is clear without backstory.",
+      "scoring_mode": "rules",
+      "cliffhanger_flags": [],
+      "evidence": {
+        "hook": [
+          "+0.15 dialogue starts 0.2s in",
+          "+0.25 shocking line (who are you)",
+          "+0.08 confrontational question",
+          "+0.10 charged delivery",
+          "+0.05 line lands within 1s"
+        ],
+        "cliffhanger": [
+          "+0.10 base",
+          "+0.08 final line charged"
+        ],
+        "emotion": [
+          "mean delivery 1.67/3, peak 2/3, 0 physical beats"
+        ],
+        "standalone": [
+          "0.85 base",
+          "+0.10 relationships stated on screen (family, mother)"
+        ],
+        "clarity": [
+          "dialogue covers 60% of clip",
+          "2 speakers",
+          "100% speaker turns",
+          "0 scene change(s)"
+        ]
+      }
+    }
+  ]
+}

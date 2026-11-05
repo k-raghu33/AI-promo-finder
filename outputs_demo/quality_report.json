@@ -1,0 +1,101 @@
+{
+  "input_checks": [
+    {
+      "check": "all input files parsed",
+      "pass": true,
+      "detail": "2/2 files"
+    },
+    {
+      "check": "episode numbers unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "episode numbers contiguous",
+      "pass": true,
+      "detail": "range 1-2"
+    },
+    {
+      "check": "block timestamps valid (start <= end, >= 0)",
+      "pass": true,
+      "detail": "0 bad"
+    },
+    {
+      "check": "blocks inside their scene bounds (\u00b10.5s)",
+      "pass": true,
+      "detail": "0 outside"
+    },
+    {
+      "check": "parser warnings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "every episode has dialogue",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "output_checks": [
+    {
+      "check": "segment timestamps inside episode",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "cuts on shot boundaries, never mid-dialogue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "total duration 20-60s",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "hook / cliffhanger / why present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no overlapping promos (>15%)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "no two promos share the same opening",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "every episode yields at least one promo",
+      "pass": true,
+      "detail": "2 episodes"
+    }
+  ],
+  "distribution": {
+    "selected": 2,
+    "multi_segment": 0,
+    "cross_episode": 0,
+    "duration_min_median_max": [
+      26.0,
+      33.5,
+      33.5
+    ],
+    "ends_at_episode_end_pct": 50.0,
+    "uses_script_cliffhanger_annotation_pct": 0.0,
+    "cliffhanger_flag_counts": {
+      "tension held at the cut": 2,
+      "new arrival": 1,
+      "episode-ending cut": 1
+    },
+    "mean_scores": {
+      "hook": 0.815,
+      "cliffhanger": 0.59,
+      "emotion": 0.805,
+      "standalone": 0.95,
+      "clarity": 1.0
+    }
+  },
+  "fingerprint": "4ee6e6373cbf2a3d"
+}
